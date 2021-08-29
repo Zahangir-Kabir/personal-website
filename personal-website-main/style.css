@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+body{
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: 'Roboto Condensed', sans-serif
+}
+.top-navbar{
+    text-align: right;
+    margin-bottom: 200px;
+}
+.top-navbar ul{
+    list-style-type: none;
+}
+.top-navbar ul li{
+  display: inline-block;
+}
+.top-navbar ul li a{
+    text-decoration: none;
+    margin-right: 20px;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-right:10%;
+    margin-bottom: 20%;
+}
+.personal-info{
+    width: 100%;
+    clear: both;
+    overflow: auto;
+    
+}
+.about-part{
+    width: 100%;
+    clear: both;
+    overflow: auto;
+    
+}
+.personal-info p{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.personal-info a{
+    text-decoration: none;
+    background-color:orangered;
+    padding: 5px 20px 5px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 900;
+}
+.half-width img{
+    width: 80%;
+    height: 80%;
+    margin-top: -40px;
+}
+.about-part h1{
+    margin-bottom: 20px;
+}
+.about-part a{
+    text-decoration: none;
+    background-color:orangered;
+    background-size: contain;
+    padding: 5px 20px 5px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 900;
+    display:inline-block;
+    margin-top: 50px;
+}
+.lasted-work h1{
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.lasted-work{
+    width: 100%;
+    overflow: auto;
+    clear: both;
+    background-color: #F8F9FC;
+    padding: 10%;
+    margin-bottom: 80px;
+}
+.lasted-working-part{
+    width: 22%;
+    float: left;
+    margin-right: 10%;
+    margin-top: 50px;
+    box-shadow: 10px 5px 10px gray;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+.lasted-working-part h2{
+    font-size: 18px;
+    text-align: center;
+    color: rgb(68, 65, 65);
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.lasted-working-part p{
+    font-size: 12px;
+    text-align: justify;
+    color: gray;
+}
+.lasted-working-part:last-child{
+    margin-right: 0;
+}
+.lasted-working-part img{
+    width: 100%;
+    height: 100%;
+}
+.work-inquiry{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    background-image: url("images/Group_33094_1.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    overflow:auto;
+    padding-top: 130px;
+}
+.footer-top{
+    width: 100%;
+    text-align: center;
+}
+.footer-top h3{
+    font-size: 16px;
+    color: gray;
+}
+.footer-top h4{
+    font-size: 30px;
+    color: gray;
+}
+.footer-top img{
+    width: 5%;
+    padding: 10px;
+}
